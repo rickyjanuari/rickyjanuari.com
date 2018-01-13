@@ -1,0 +1,32 @@
+.intro--blue {
+    overflow: hidden;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#00CECE), to(#00ADAD));
+    background-image: -webkit-linear-gradient(top, #00CECE, #00ADAD);
+    background-image: linear-gradient(-180deg, #00CECE, #00ADAD);
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 79% 98%, 50% 100%, 19% 98%, 0 100%, 0% 35%, 0 0);
+clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 79% 98%, 50% 100%, 19% 98%, 0 100%, 0% 35%, 0 0);
+}
+
+.intro {
+    position: relative;
+}
+
+.intro__content {
+    position: relative;
+    margin: 120px 0;
+    z-index: 2;
+    // text-align: center;
+    img {
+        border-radius: 50%;
+        width: 10%;
+        height: auto;
+    }
+}
+.intro__header {
+    margin-top: 0;
+    color: #fff;
+    font-size: 1.875rem;
+}
+.intro__text {
+    color: #fff;
+}

@@ -1,7 +1,13 @@
 .about {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    min-height: 300px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:stretch;
+    &__left {
+        order:1;
+    }
+    &__right {
+        order:2;
+    }
 }
