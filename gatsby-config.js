@@ -142,7 +142,7 @@ module.exports = {
             query: `
             {
               allMarkdownRemark(
-                limit: 1000,
+                limit: 2000,
                 sort: { order: DESC, fields: [frontmatter___date] },
               ) {
                 edges {

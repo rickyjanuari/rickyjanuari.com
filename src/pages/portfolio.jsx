@@ -6,7 +6,7 @@ import { withPrefix } from 'gatsby-link'
 class PortfolioPage extends Component {
   render() {
     return (
-      <div className="contact-container">
+      <div className="container contact-container">
         <Helmet title={`Contact | ${config.siteTitle}`} />
         <h2>Portfolio</h2>
         <div>

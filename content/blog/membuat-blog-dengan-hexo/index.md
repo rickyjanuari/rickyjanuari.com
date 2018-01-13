@@ -5,9 +5,11 @@ date: "12/01/2018"
 category: "Tutorial"
 tags:
     - Tutorial
+    - Hexo
 ---
-Hallo, saya akan berbagi cara membuat Blog dengan Hexo dengan hosting Github Page.
-ada yang udah pernah dengan tetang hexo?
+Hallo, saya akan berbagi bagaimana cara membuat Blog dengan Hexo dengan hosting Github Page.
+
+# Apa Hexo?
 
 Hexo adalah framework blog sederhana  yang didukung oleh Node.js. Web statis generator ini sangat cepat dan hanya membutuhkan waktu beberapa detik untuk membangun website yang lengkap.
 
@@ -70,7 +72,7 @@ deploy:
 Untuk membuat artikel.
 
 ```
-hexo new post <title>
+hexo new post "title"
 ```
 
 Generate terlebih dahulu website Hexo-nya.

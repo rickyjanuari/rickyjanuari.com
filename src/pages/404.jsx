@@ -8,7 +8,7 @@ class ContactPage extends Component {
     return (
       <div className="container contact-container">
         <Helmet title={`Contact | ${config.siteTitle}`} />
-        <Contact />
+        <h1>404</h1>
       </div>
     );
   }
