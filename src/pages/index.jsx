@@ -13,9 +13,9 @@ class Index extends React.Component {
         <Helmet title={config.siteTitle} />
         <SEO postEdges={postEdges} />
         <Hero />
-        <div className="container">
+        
         <PostListing postEdges={postEdges} />
-        </div>
+        
       </div>
     );
   }
