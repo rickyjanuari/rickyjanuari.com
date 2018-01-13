@@ -28,6 +28,7 @@ export default class PostTemplate extends React.Component {
         <SEO postPath={slug} postNode={postNode} postSEO />
         <div className="container">
           <h1>{post.title}</h1>
+          <img src={post.cover} alt=""/>
           <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
           <div className="post-meta">
             <PostTags tags={post.tags} />

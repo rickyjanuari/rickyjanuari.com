@@ -3,11 +3,12 @@ title: "Cara Membuat Blog dengan Hexo dan hosting Github Page"
 cover: "../img/blog-hexo.png"
 date: "12/01/2018"
 category: "Tutorial"
+featuredImage: "../img/blog-hexo.png"
 tags:
     - Tutorial
     - Hexo
 ---
-Hallo, saya akan berbagi bagaimana cara membuat Blog dengan Hexo dengan hosting Github Page.
+Hallo, saya akan berbagi bagaimana cara membuat Blog dengan Hexo dan hosting Github Page.
 
 # Apa Hexo?
 
@@ -96,7 +97,7 @@ Atau bisa juga menjalankan di server lokal kita dengan perintah berikut.
 hexo server
 ```
 
-Lalu buka http://localhost:4000.
+Lalu buka http://localhost:4000 untuk membuknya di localhost
 
 Selesai, selamat mencoba dan semoga bermanfaat.
 
