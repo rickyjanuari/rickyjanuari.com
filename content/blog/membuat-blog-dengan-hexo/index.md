@@ -1,5 +1,5 @@
 ---
-title: "Cara Membuat Blog dengan Hexo dengan hosting Github Page"
+title: "Cara Membuat Blog dengan Hexo dan hosting Github Page"
 cover: "../img/blog-hexo.png"
 date: "12/01/2018"
 category: "Tutorial"
