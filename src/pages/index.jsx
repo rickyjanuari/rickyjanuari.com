@@ -2,7 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import PostListing from "../components/PostListing/PostListing";
 import SEO from "../components/SEO/SEO";
-import SidebarLeft from "../components/Sidebar/SidebarLeft";
+import Hero from "../components/Hero/Hero";
 import config from "../../data/SiteConfig";
 
 class Index extends React.Component {
@@ -12,7 +12,7 @@ class Index extends React.Component {
       <div className="home index-container">
         <Helmet title={config.siteTitle} />
         <SEO postEdges={postEdges} />
-        {/* <SidebarLeft /> */}
+        <Hero />
         <PostListing postEdges={postEdges} />
       </div>
     );
