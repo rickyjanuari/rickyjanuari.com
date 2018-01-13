@@ -11,7 +11,6 @@ class Header extends Component {
         <nav>
                 <a href="/" class="logo-link" id="logo-link" aria-label="DEV Home">@rickyjanuari</a>
                 <div className="right-menu">
-                    <a href="/work">Work</a>
                     <a href="/about">About</a>
                     <a href="/contact">Contact</a>
                     <a href="/portfolio">Portfolio</a>

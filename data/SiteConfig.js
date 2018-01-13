@@ -8,7 +8,7 @@ module.exports = {
   siteDescription: "Personal Blog Ricky Januari", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "1825356251115265", // FB Application ID for using app insights
-  googleAnalyticsID: "UA-47311644-5", // GA tracking ID.
+  googleAnalyticsID: "UA-93054706-1", // GA tracking ID.
   disqusShortname: "rickyjanuari", // Disqus shortname.
   postDefaultCategoryID: "Front-end", // Default category for posts.
   userName: "Ricky Januari", // Username to display in the author segment.
@@ -16,7 +16,7 @@ module.exports = {
   userLocation: "Bandung, Indonesia", // User location to display in the author segment.
   userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
   userDescription:
-    "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment.
+    "Hello, I am Front-end Developer", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
