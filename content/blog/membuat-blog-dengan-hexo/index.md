@@ -11,6 +11,9 @@ Hallo, saya akan berbagi bagaimana cara membuat Blog dengan Hexo dengan hosting 
 
 # Apa Hexo?
 
+<img src="../img/blog.hexo.png" alt="">
+
+
 Hexo adalah framework blog sederhana  yang didukung oleh Node.js. Web statis generator ini sangat cepat dan hanya membutuhkan waktu beberapa detik untuk membangun website yang lengkap.
 
 Hexo mendukung semua fitur GitHub-flavored Markdown dan sebagian besar plugin Octopress. Salah satu keuntungan utama dari Hexo adalah memungkinkan Anda untuk mentransfer blog atau situs ke web host dengan satu perintah.
@@ -21,7 +24,7 @@ Pastikan kamu sudah Install Git.
 sudo apt install git-core
 ```
 
-Install NodeJS
+Install NodeJS - https://nodejs.org/en/download/
 
 Jika sudah terinstall Git dan NodeJS, sekarang kita install Hexo dengan perintah berikut.
 
