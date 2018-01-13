@@ -1,22 +1,14 @@
 @import "foundation/base.scss";
 @import "foundation/reset.scss";
 
-.main-content {
-    position: relative;
-    z-index: 3;
-    min-height: 100vh;
-    min-height: calc(100vh - 244px);
-    padding-top: 50px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    transition: transform .3s,background-color .5s;
-}
-.container-fluid {
-    position: relative;
-    max-width: 1200px;
-    height: 100%;
-}
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
+@import "object/object.scss";
+
+.container {
+    max-width: 1020px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
