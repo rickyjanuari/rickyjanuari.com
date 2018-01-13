@@ -1,0 +1,16 @@
+.article--small {
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 10px;
+    width: 45%;
+    float: left;
+    .article__image {
+        height: 200px;
+        background-repeat: none;
+        background-size: cover;
+    }
+    .article__content {
+        padding: 0.5em;
+    }
+}

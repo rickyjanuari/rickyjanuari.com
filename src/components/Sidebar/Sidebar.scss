@@ -1,0 +1,69 @@
+.home {
+    position: relative;
+    overflow: hidden;
+    // text-align: center;
+    min-height: 440px;
+    margin: auto;
+    max-width: 1250px;
+    margin-top: 5px;
+}
+.sidebar-wrapper {
+}
+.side-bar {
+    float: left;
+    width: 280px;
+    margin: auto;
+    text-align: left;
+    font-size: 0.9em;
+    line-height: 1.35em;
+    margin-left: 0.786vw;
+    min-height: 5px;
+    position: relative;
+    z-index: 5;
+    max-height: 100vh;
+    .sidebar-nav {
+        margin-bottom: 20px;
+        .sidebar-profile-snapshot {
+            overflow: hidden;
+            background: white;
+            margin-bottom: 14px;
+            border-radius: 3px;
+            width: calc(100% - 3px);
+            box-shadow: 0 1px 4px 0 rgba(0,0,0,0.15);
+            .sidebar-profile-snapshot-inner {
+                display: inline-block;
+                vertical-align: middle;
+                width: 100%;
+                line-height: 20px;
+                color: #0a0a0a;
+            }
+            .sidebar-profile-pic {
+                display: inline-block;
+                width: 66px;
+                height: 66px;
+                vertical-align: top;
+                overflow: hidden;
+                background: #fdf9f3;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .sidebar-profile-content {
+                display: inline-block;
+                width: calc(100% - 74px);
+                margin-top: 15px;
+                font-size: 13px;
+                vertical-align: middle;
+                text-align: left;
+                .sidebar-profile-name {
+                    font-weight: 400;
+                    font-size: 17px;
+                }
+                .sidebar-profile-username {
+                    color: #666666;
+                }
+            }
+        }
+    }
+}

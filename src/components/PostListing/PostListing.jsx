@@ -1,5 +1,8 @@
 import React from "react";
 import Link from "gatsby-link";
+import "./PostListing.scss";
+import Img from "gatsby-image";
+
 
 class PostListing extends React.Component {
   getPostList() {
@@ -24,8 +27,25 @@ class PostListing extends React.Component {
         {/* Your post list here. */
         postList.map(post => (
           <Link to={post.path} key={post.title}>
-            <h1>{post.title}</h1>
+            <article className="article--small">
+              <div className="article__image" style={{ backgroundImage: `url(${post.cover})`}}>
+                
+              </div>
+              <div className="article__content">
+                <div className="article__description">
+                <h3>{post.title}</h3>
+                <p>
+                  {post.excerpt}
+                </p>
+                </div>
+              
+              </div>
+              
+              
+            </article>
+            
           </Link>
+          
         ))}
       </div>
     );

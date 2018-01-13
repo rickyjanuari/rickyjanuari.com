@@ -14,7 +14,6 @@ class Header extends Component {
                     <a href="/contact">Contact</a>
                     <a href="/portfolio">Portfolio</a>
                 </div>
-                
             </nav>
         </div>
       </header>
