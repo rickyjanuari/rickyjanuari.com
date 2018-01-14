@@ -69,18 +69,4 @@ module.exports = {
       title: 'Popmotion',
     },
   ],
-  items: [
-    {
-      src: 'https://picsum.photos/1024/300?random',
-      alt: 'First slide',
-    },
-    {
-      src: 'https://picsum.photos/1024/400?random',
-      alt: 'Second slide',
-    },
-    {
-      src: 'https://picsum.photos/1024/500?random',
-      alt: 'Third slide',
-    },
-  ],
 };
