@@ -43,3 +43,11 @@ img {
     width: 100%;
     height: auto;
 }
+
+@include respondto (xs) {
+    .article--small {
+        width: 100% !important;
+        margin: 0px !important;
+        margin-bottom: 10px !important;
+    }
+}

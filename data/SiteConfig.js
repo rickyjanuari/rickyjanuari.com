@@ -37,5 +37,50 @@ module.exports = {
   ],
   copyright: "Copyright © 2017. Advanced User", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
-  backgroundColor: "#e0e0e0" // Used for setting manifest background color.
+  backgroundColor: "#e0e0e0", // Used for setting manifest background color.
+
+  demoList: [
+    {
+      href: 'demo/count',
+      title: '字數統計',
+    },
+    {
+      href: 'demo/redux',
+      title: 'Redux 例子',
+    },
+    {
+      href: 'demo/gun',
+      title: 'Gun 例子',
+    },
+    {
+      href: 'demo/route',
+      title: '前端路線圖',
+    },
+    {
+      href: 'demo/fonts',
+      title: '字體',
+    },
+    {
+      href: 'demo/bootstrap',
+      title: 'Bootstrap 組件',
+    },
+    {
+      href: 'demo/popmotion',
+      title: 'Popmotion',
+    },
+  ],
+  items: [
+    {
+      src: 'https://picsum.photos/1024/300?random',
+      alt: 'First slide',
+    },
+    {
+      src: 'https://picsum.photos/1024/400?random',
+      alt: 'Second slide',
+    },
+    {
+      src: 'https://picsum.photos/1024/500?random',
+      alt: 'Third slide',
+    },
+  ],
 };
