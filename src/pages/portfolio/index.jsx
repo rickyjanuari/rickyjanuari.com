@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
-import Contact from "../..components/Contact/Contact";
-import config from "../../..data/SiteConfig";
+import Contact from "../../components/Contact/Contact";
+import config from "../../../data/SiteConfig";
 import { withPrefix } from 'gatsby-link'
-
 class PortfolioPage extends Component {
   render() {
     return (
@@ -11,7 +10,6 @@ class PortfolioPage extends Component {
         <Helmet title={`Contact | ${config.siteTitle}`} />
         <h2>Portfolio</h2>
         <div>
-        
         </div>
         
       </div>
