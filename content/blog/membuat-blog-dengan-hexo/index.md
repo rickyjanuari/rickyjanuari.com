@@ -1,9 +1,9 @@
 ---
 title: "Cara Membuat Blog dengan Hexo dan hosting Github Page"
-cover: "../img/blog-hexo.png"
+cover: "../img/blog-hexo.webp"
 date: "12/01/2018"
 category: "Tutorial"
-featuredImage: "../img/blog-hexo.png"
+featuredImage: "../img/blog-hexo.webp"
 tags:
     - Tutorial
     - Hexo
