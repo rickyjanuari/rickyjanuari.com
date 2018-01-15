@@ -24,9 +24,12 @@
         width: 100%;
         border: 1px solid #eaeaea;
         display: block;
+        padding-bottom: 10px;
     }
     .post__footer {
-        
+        position: absolute;
+        bottom: 0px;
+        padding: 5px;
     }
     
 }
