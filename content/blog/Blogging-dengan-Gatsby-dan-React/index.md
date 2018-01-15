@@ -1,9 +1,9 @@
 ---
 title: "Gatsby adalah generator situs statis yang menggunakan React dan GraphQL"
-cover: "http://res.cloudinary.com/codesains/image/upload/v1515951025/rickyjanuari.com/GatsbyJS.png.png"
+cover: "https://res.cloudinary.com/codesains/image/upload/v1515951025/rickyjanuari.com/GatsbyJS.png.png"
 date: "12/01/2018"
 category: "React"
-featuredImage: "http://res.cloudinary.com/codesains/image/upload/v1515951025/rickyjanuari.com/GatsbyJS.png.png"
+featuredImage: "https://res.cloudinary.com/codesains/image/upload/v1515951025/rickyjanuari.com/GatsbyJS.png.png"
 tags:
     - Tutorial
     - Gatsby
