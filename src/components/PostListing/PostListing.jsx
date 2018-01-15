@@ -30,7 +30,6 @@ class PostListing extends React.Component {
             <article className="posts--small  col-xs-12 col-sm-6 col-md-4">
             <Link to={post.path} key={post.title} className="posts-item-link">
               <div className="posts__image" style={{ backgroundImage: `url(${post.cover})`}}>
-                
               </div>
               <div className="posts__content">
                 <div className="posts__description">
@@ -38,12 +37,11 @@ class PostListing extends React.Component {
                 <p>
                   {post.excerpt}
                 </p>
-                
-                </div>
                 <div className="post__footer">
                   <PostTags tags={post.tags} />
                 </div>
-              
+                </div>
+                
               </div>
               
               </Link>
