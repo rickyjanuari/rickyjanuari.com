@@ -1,18 +1,35 @@
-.article--small {
-    border: 1px solid #eaeaea;
-    border-radius: 3px;
-    overflow: hidden;
-    margin: 10px;
-    width: 33.33333333%;
-    float: left;
-    .article__image {
+@import "../../styles/structure/variables/index";
+@mixin staggered_transitions($nth: 1, $items: 2, $initial: 0, $step: 0.1) {
+    @for $i from $nth through $items {
+      &:nth-of-type(#{$i}) {
+        transition-delay: #{$initial}s;
+      }
+      $initial: $initial + $step;
+    }
+  }
+.posts--small {
+    margin-top: 20px;
+    .posts__image {
         height: 200px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 50%;
         position: relative;
     }
-    .article__content {
+    .posts__content {
         padding: 0.5em;
     }
+    .posts-item-link {
+        height: 100%;
+        border-radius: 3px;
+        border: 1px solid #eaeaea;
+        display: block;
+        position: relative;
+    }
+    .post__footer {
+        position: absolute;
+        bottom: 0px;
+        
+    }
+    
 }

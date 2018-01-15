@@ -17,6 +17,7 @@ module.exports = {
     }
   },
   plugins: [
+    "gatsby-plugin-resolve-src",
     {
       resolve: 'gatsby-plugin-i18n',
       options: {        
@@ -142,7 +143,7 @@ module.exports = {
             query: `
             {
               allMarkdownRemark(
-                limit: 2000,
+                limit: 1000,
                 sort: { order: DESC, fields: [frontmatter___date] },
               ) {
                 edges {
