@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    line-height: 1.5;
+    font-weight: 300;
+    font-family: Nunito,sans-serif;
+    background-color: #fff;
+    color: #3e454c;
+}
+
+body {
+    margin: 0;
+    position: relative;
+    /* padding: 20px; */
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+@import "sass/main.scss";
+@import '~normalize.css/normalize';
+@import '~flexboxgrid';
+@import 'structure/variables/index';
+@import 'structure/rewrites';
+@import 'structure/art-direction';
+@import 'structure/helpers';
+@import 'structure/print';
+@import 'structure/common';

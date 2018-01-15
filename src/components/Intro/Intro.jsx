@@ -9,7 +9,6 @@ class Intro extends Component {
             <div className="container">
                 <div className="row">
                     <div className="col-xs-12 col-sm-7 col-md-5 intro__content">
-                        <img src={avatar} alt="Ricky Januari"/>
                         <h1 className="intro__header">Hello, I am Ricky Januari</h1>
                         <p className="intro__text">Front-End Developer and Web Designer based in Bandung, Indonesia</p>
                     </div>

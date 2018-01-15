@@ -2,7 +2,7 @@ import React from "react";
 import Link from "gatsby-link";
 import "./PostListing.scss";
 import Img from "gatsby-image";
-
+import PostTags from "components/PostTags/PostTags";
 
 class PostListing extends React.Component {
   getPostList() {
@@ -23,28 +23,33 @@ class PostListing extends React.Component {
   render() {
     const postList = this.getPostList();
     return (
-      <div className="container">
+      <div className="row">
         {/* Your post list here. */
         postList.map(post => (
-          <Link to={post.path} key={post.title}>
-            <article className="article--small">
-              <div className="article__image" style={{ backgroundImage: `url(${post.cover})`}}>
+          
+            <article className="posts--small  col-xs-12 col-sm-6 col-md-4">
+            <Link to={post.path} key={post.title} className="posts-item-link">
+              <div className="posts__image" style={{ backgroundImage: `url(${post.cover})`}}>
                 
               </div>
-              <div className="article__content">
-                <div className="article__description">
+              <div className="posts__content">
+                <div className="posts__description">
                 <h3>{post.title}</h3>
                 <p>
                   {post.excerpt}
                 </p>
+                
+                </div>
+                <div className="post__footer">
+                  <PostTags tags={post.tags} />
                 </div>
               
               </div>
               
-              
+              </Link>
             </article>
             
-          </Link>
+          
           
         ))}
       </div>
