@@ -7,7 +7,7 @@
       $initial: $initial + $step;
     }
   }
-.posts--small {
+.posts {
     margin-top: 20px;
     .posts__image {
         height: 200px;
@@ -27,8 +27,6 @@
         position: relative;
     }
     .post__footer {
-        position: absolute;
-        bottom: 0px;
         
     }
     
