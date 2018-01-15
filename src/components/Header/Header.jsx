@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Header.scss";
-
+import Link from "gatsby-link";
 class Header extends Component {
   render() {
     return (
@@ -9,11 +9,11 @@ class Header extends Component {
         <div className="top-bar">
         <div className="container">
         <nav>
-                <a href="/" class="logo-link" id="logo-link" aria-label="DEV Home">@rickyjanuari</a>
+                <Link to="/" className="logo-link">@rickyjanuari</Link>
                 <div className="right-menu">
-                    <a href="/about">About</a>
-                    <a href="/contact">Contact</a>
-                    <a href="/portfolio">Portfolio</a>
+                    <Link to="/about">About</Link>
+                    <Link to="/contact">Contact</Link>
+                    <Link to="/portfolio">Portfolio</Link>
                 </div>
             </nav>
         </div>

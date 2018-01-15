@@ -26,26 +26,26 @@ class PostListing extends React.Component {
       <div className="row">
         {/* Your post list here. */
         postList.map(post => (
-            <div className="posts col-xs-12 col-sm-6 col-md-4">
-            <Link to={post.path} key={post.title} className="posts-item-link">
-            <div className="posts-content">
-
+            <div key={post.title} className="posts col-xs-12 col-sm-6 col-md-4">
             
+            <div className="posts-content">
+            <Link to={post.path} >
               <div className="posts__image" style={{ backgroundImage: `url(${post.cover})`}}>
               </div>
+              
               <div className="posts__content">
                 <div className="posts__description">
                   <h3>{post.title}</h3>
                   <p>
                     {post.excerpt}
                   </p>
-                  <div className="post__footer">
-                  <PostTags tags={post.tags} />
                 </div>
-                </div>
-              </div>
               </div>
               </Link>
+              <div className="post__footer">
+                  <PostTags tags={post.tags} />
+                </div>
+              </div>
               
             </div>
         ))}
