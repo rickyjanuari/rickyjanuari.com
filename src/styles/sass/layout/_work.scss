@@ -1,0 +1,47 @@
+.work-page {
+    h1,h2,p {
+        text-align: center;
+    }
+}
+.work__wrap {
+    position: relative;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    .work__description {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(30, 219, 194, 0.61);
+        color: #fff;
+        visibility: hidden;
+        opacity: 0;
+        @include respondto (xs) {
+            opacity: 1;
+            visibility: visible;
+        }
+        margin: 0px;
+        transition: opacity .2s, visibility .2s;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: .5rem;
+        box-sizing: border-box;
+        .work_name {
+            display: block;
+            width: 100%;
+            color: #fff;
+        }
+    }
+    &:hover .work__description {
+        visibility: visible;
+        opacity: 1;
+        @include respondto (xs) {
+            visibility: hidden;
+            opacity: 0;
+        }
+    }
+}
