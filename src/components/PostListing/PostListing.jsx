@@ -50,6 +50,7 @@ class PostListing extends React.Component {
             </div>
         ))}
       </div>
+      
     );
   }
 }

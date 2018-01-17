@@ -90,6 +90,9 @@
 .container{
   max-width: 1020px;
   margin: 0px auto;
+  @include respondto (xs) {
+    width: 98%;
+  }
 }
 
 .footer-wrapper {
