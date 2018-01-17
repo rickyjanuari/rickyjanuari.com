@@ -14,6 +14,11 @@ class About extends Component {
 			</div>
 			<div className="experience">
 				<h2>Work Experience</h2>
+				<h3>Freelance Services</h3>
+				<p>
+					<p>Work Remotely from home <br/> August 2017 - Present</p>
+				</p>
+				<hr/>
 				<h3>Front-end Web Developers - agensidigital.com, Bandung - Indonesia</h3>
 				<p>Work Remotely from home <br/> August 2011 - December 2013</p>
 				<h4>My responsibilities include:</h4>
@@ -53,14 +58,19 @@ class About extends Component {
             <li>Learning</li>
           </ul>
           <h3 className="h4 mb-0">I’m Getting Better With</h3>
-          <ul>
-            <li>Performance</li>
-            <li>Build Tools (Gulp, Webpack)</li>
-            <li>Typography</li>
-            <li>Color Theory</li>
-            <li>React</li>
-          </ul>
-        </div>
+			<ul>
+				<li>Performance</li>
+				<li>Build Tools (Gulp, Webpack)</li>
+				<li>Typography</li>
+				<li>Color Theory</li>
+			</ul>
+			<h3 className="h4 mb-0">I'm now learning about</h3>
+			<ul>
+				<li>Reactjs and React Native</li>
+				<li>Vuejs</li>
+				<li>Wordpress</li>
+			</ul>
+			</div>
         </div>
         
         
