@@ -1,21 +1,46 @@
 import React, { Component } from "react";
-import "./About.css";
+import "./About.scss";
 
 class About extends Component {
   render() {
     return (
       <div className="container about">
-        <div className="about__left">
-            <h1>About Me</h1>
-            <p>I’m Ricky Januari a Freelance Front-end Developer &amp; Designer based in Bandung - Indonesia. I have over 2 years of experience designing &amp; building websites.</p>
-            <p>I care about an open, accessible, fast, responsive, and well-built web that puts people first. When I’m not working toward that, I’m probably reading, riding my bike</p>
-        </div>
-        <div className="about__right">
-            <h2>What I Do</h2>
-            <ul>
-                <li>Front-end Development</li>
-                <li>Responsive Design &amp; Development</li>
-            </ul>
+        <div className="row">
+        <div className="col-xs-12 col-md-8">
+			<div className="about-me">
+				<h1>About Me</h1>
+            	<p>I’m Ricky Januari a Freelance Front-end Developer &amp; Designer based in Bandung - Indonesia. I have over 2 years of experience designing &amp; building websites.</p>
+            	<p>I care about an open, accessible, fast, responsive, and well-built web that puts people first. When I’m not working toward that, I’m probably reading, riding my bike</p>
+			</div>
+			<div className="experience">
+				<h2>Work Experience</h2>
+				<h3>Front-end Web Developers - agensidigital.com, Bandung - Indonesia</h3>
+				<p>Work Remotely from home <br/> August 2011 - December 2013</p>
+				<h4>My responsibilities include:</h4>
+				<ul>
+					<li>Bringing a designer’s concept to life with HTML, CSS, and JavaScript</li>
+					<li>Building reusable code and libraries for future use</li>
+					<li>Implementing responsive design</li>
+				</ul>
+				<hr/>
+				<h3>Data Entry - PT Daya Pratama Lestari, Bandung - Indonesia</h3>
+				<h4>My responsibilities include:</h4>
+				<ul>
+					<li>Scan documents and print files, when needed</li>
+				</ul>
+			</div>
+			<div className="experience">
+				<h2>Freelance Services</h2>
+          		<h3>FRONT-END DEVELOPMENT</h3>
+          		<p>Organized and semantic HTML5 and CSS3 to bring your designs to life</p>
+          		<h3>
+            		RESPONSIVE DESIGN
+          		</h3>
+          		<p>No need to worry about what your website looks across devices, I specialize in bringing full desktop sites down to the smallest mobile, and in between. Consistency from your PSDs to beautiful usable mobile layouts is key.
+          		</p>
+          	</div>
+		</div>
+          <div className="col-xs-12 col-md-3">
           <h3 className="h4 mb-0">I’m Very Good With</h3>
           <ul>
             <li>HTML</li>
@@ -35,17 +60,10 @@ class About extends Component {
             <li>Color Theory</li>
             <li>React</li>
           </ul>
-
-          <h2>Work Experience</h2>
-          <h3>Front-end Web Developers - agensidigital.com, Bandung - Indonesia</h3>
-          <p>Work Remotely from home <br/> August 2016 - December 2017</p>
-          <h4>My responsibilities include:</h4>
-          <ul>
-            <li>Bringing a designer’s concept to life with HTML, CSS, and JavaScript</li>
-            <li>Building reusable code and libraries for future use</li>
-            <li>Implementing responsive design</li>
-          </ul>
         </div>
+        </div>
+        
+        
       </div>
     );
   }
