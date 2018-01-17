@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Header.scss";
+import Avatar from 'components/Avatar';
 import Link from "gatsby-link";
 class Header extends Component {
   render() {
@@ -7,18 +8,23 @@ class Header extends Component {
     <div>
       <header className="header">
         <div className="top-bar">
-        <div className="container">
-        <nav>
-                <Link to="/" className="logo-link">@rickyjanuari</Link>
-                <div className="right-menu">
-                  <Link to="/blog" activeStyle={{color: '#00CECE'}}>Blog</Link>
-                    
-                    <Link to="/work" activeStyle={{color: '#00CECE'}}>Work</Link>
-                    <Link to="/about" activeStyle={{color: '#00CECE'}}>About</Link>
-                    <Link to="/contact" activeStyle={{color: '#00CECE'}}>Contact</Link>
-                </div>
+          <div className="container">
+          <Link to="/" className="logo-link">
+            <Avatar/>
+          </Link>
+          
+            <nav className="right-menu">
+            <Link to="/" className="menu-mobile">MENU</Link>
+              <ul>
+                <li>
+                <Link to="/blog" activeStyle={{color: '#00CECE'}}>Blog</Link>
+                </li>
+                <li><Link to="/work" activeStyle={{color: '#00CECE'}}>Work</Link></li>
+                <li><Link to="/about" activeStyle={{color: '#00CECE'}}>About</Link></li>
+                <li><Link to="/contact" activeStyle={{color: '#00CECE'}}>Contact</Link></li>
+              </ul>  
             </nav>
-        </div>
+          </div>
             
         </div>
       </header>
