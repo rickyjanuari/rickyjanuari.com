@@ -1,0 +1,56 @@
+.envelope {
+    padding: 10px;
+    
+}
+.contact {
+    text-align: center;
+}
+.contact-t {
+    font-size: 26px;
+    font-weight: normal;
+    color: 5c5c5c;
+    text-transform: uppercase;
+}
+.column.centered, .columns.centered {
+    float: none;
+    margin: 0 auto;
+}
+.contact-line {
+    border-top: 1px solid #737373;
+    margin-top: 0;
+    height: 1px;
+}
+.contact-sub {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.centered {
+    a {
+        display: inline-block;
+        .icon-social {
+            width: 72px;
+            height: 72px;
+            background-position: 0px 0px;
+            text-indent: -9999px;
+            overflow: hidden;
+            display: block;
+            -webkit-transition: all 0.7s ease-out;
+            -moz-transition: all 0.7s ease-out;
+            -ms-transition: all 0.7s ease-out;
+            -o-transition: all 0.7s ease-out;
+            transition: all 0.7s ease-out;
+        }
+    }
+}
+    
+
+
+.contact-note {
+    clear: both;
+    font-size: 13px;
+    font-weight: normal;
+    border-top: 1px solid #737373;
+    padding: 10px;
+    text-transform: uppercase;
+}
