@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Header.scss";
 import Avatar from 'components/Avatar';
+import FaBars from 'react-icons/lib/fa/bars';
 import Link from "gatsby-link";
 class Header extends Component {
   render() {
@@ -14,7 +15,7 @@ class Header extends Component {
           </Link>
           
             <nav className="right-menu">
-            <Link to="/" className="menu-mobile">MENU</Link>
+            <Link to="/" className="menu-mobile"><FaBars/></Link>
               <ul>
                 <li>
                 <Link to="/blog" activeStyle={{color: '#00CECE'}}>Blog</Link>
