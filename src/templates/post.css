@@ -3,3 +3,12 @@
     flex-direction: column;
     justify-content: center;
 }
+.post-single {
+    border: 1px solid #eaeaea;
+    margin-top: 10px;
+    padding: 10px;
+    background: #fff;
+    h1 {
+        margin: 0px;
+    }
+}
