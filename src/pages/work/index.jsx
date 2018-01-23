@@ -10,7 +10,7 @@ class WorkIndex extends Component {
     return (
         <div className="work-page container contact-container">
             <Helmet title={`Work | ${config.siteTitle}`} />
-            <h2>Work is done</h2>
+            <h2>Work</h2>
             <p>Here are some projects I've worked on as Front-end Developer</p>
             <div className="row">
                 <div className="col-xs-12 col-md-6">
