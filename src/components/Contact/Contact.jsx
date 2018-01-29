@@ -12,12 +12,13 @@ class Contact extends Component {
       <div className="contact">
         <div className="envelope">
 					<h3 className="contact-t">Contact / Hire Me</h3>
+          
 					<h3 className="contact-line contact-t"></h3>
 					<div className="centered">
 							<a id="mailme" href="mailto:ricky010193@gmail.com"><Email className="icon-social"/></a>
-							<a id="fb" href="http://me.me/rickyjanuaris" target="blank_"><Facebook className="icon-social"/></a>
+							<a id="fb" href="https://www.facebook.com/rickyjanuari1" target="blank_"><Facebook className="icon-social"/></a>
 							<a id="linkedin" href="https://www.linkedin.com/in/rickyjanuari/" target="blank_"><Linkedin className="icon-social"/></a>
-              <a id="linkedin" href="http://m.me/rickyjanuaris" target="blank_"><Skype className="icon-social"/></a>
+              <a id="linkedin" href="https://join.skype.com/invite/IwnfvZorwpKm" target="blank_"><Skype className="icon-social"/></a>
               <a id="linkedin" href="https://api.whatsapp.com/send?phone=6285759621854" target="blank_"><WA className="icon-social"/></a>
 						
 					</div>				
