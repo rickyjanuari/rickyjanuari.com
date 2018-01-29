@@ -3,18 +3,32 @@
     background-image: -webkit-gradient(linear, left top, left bottom, from(#00CECE), to(#00ADAD));
     background-image: -webkit-linear-gradient(top, #00CECE, #00ADAD);
     background-image: linear-gradient(-180deg, #00CECE, #00ADAD);
-    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 79% 98%, 50% 100%, 19% 98%, 0 100%, 0% 35%, 0 0);
-clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 79% 98%, 50% 100%, 19% 98%, 0 100%, 0% 35%, 0 0);
 }
 
 .intro {
-    position: relative;
+    height: 90vh;
+    width: 100%;
+}
+.btn {
+
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 30px;
+    height: 50px;
+    line-height: 50px;
+    border: #fff solid 1px;
+    padding: 10px;
+    color: #fff;
+    &:hover {
+        border: #000 solid 1px;
+    }
 }
 
 .intro__content {
+    padding-top: 10%;
     position: relative;
-    padding: 20px;
     z-index: 2;
+    text-align: center;
     
     // text-align: center;
     img {
@@ -26,8 +40,9 @@ clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 79% 98%, 50% 100%, 19% 9
 .intro__header {
     margin-top: 0;
     color: #fff;
-    font-size: 1.875rem;
+    font-size: 3rem;
 }
 .intro__text {
     color: #fff;
+    margin-bottom: 40px;
 }

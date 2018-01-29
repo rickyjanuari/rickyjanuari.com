@@ -6,7 +6,6 @@ import Link from "gatsby-link";
 class Header extends Component {
   render() {
     return (
-    <div>
       <header className="header">
         <div className="top-bar">
           <div className="container">
@@ -29,7 +28,6 @@ class Header extends Component {
             
         </div>
       </header>
-      </div>
     );
   }
 }

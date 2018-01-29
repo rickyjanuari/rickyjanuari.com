@@ -3,6 +3,7 @@ import Helmet from "react-helmet";
 import Header from "../components/Header/Header";
 import config from "../../data/SiteConfig";
 import "../styles/base.scss";
+import Footer from "components/Footer/Footer";
 
 export default class MainLayout extends React.Component {
   getLocalTitle() {

@@ -8,9 +8,11 @@ class Intro extends Component {
       <section className="intro intro--blue">
             <div className="container">
                 <div className="row">
-                    <div className="col-xs-12 col-sm-7 col-md-5 intro__content">
-                        <h1 className="intro__header">Hello, I am Ricky Januari</h1>
+                    <div className="col-xs-12 col-sm-12 col-md-12 intro__content">
+                        <h1 className="intro__header">Hi, I'm Ricky Januari</h1>
                         <p className="intro__text">Front-End Developer and Web Designer based in Bandung, Indonesia</p>
+                        <a href="/about" className="btn">About Me</a>
+                        <a href="/contact" className="btn">Contact Me</a>
                     </div>
                 </div>
             </div>

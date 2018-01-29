@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Link from "gatsby-link";
 import UserLinks from "../UserLinks/UserLinks";
-import "./Footer.css";
+import "./Footer.scss";
 import config from "../../../data/SiteConfig";
 
 class Footer extends Component {

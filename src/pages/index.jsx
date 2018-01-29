@@ -9,9 +9,6 @@ class Index extends React.Component {
       <div className="home index-container">
         <Helmet title={config.siteTitle} />
         <Intro />
-        <div className="content-container">
-        </div>
-        
       </div>
     );
   }
