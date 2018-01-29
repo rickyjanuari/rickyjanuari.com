@@ -10,7 +10,7 @@ class Intro extends Component {
                 <div className="row">
                     <div className="col-xs-12 col-sm-12 col-md-12 intro__content">
                         <h1 className="intro__header">Hi, I'm Ricky Januari</h1>
-                        <p className="intro__text">Front-End Developer and Web Designer based in Bandung, Indonesia</p>
+                        <p className="intro__text">Front-End Developer based in Bandung, Indonesia</p>
                         <a href="/about" className="btn">About Me</a>
                         <a href="/contact" className="btn">Contact Me</a>
                     </div>
