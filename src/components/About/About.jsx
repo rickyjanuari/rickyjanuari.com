@@ -20,7 +20,7 @@ class About extends Component {
 				</p>
 				<hr/>
 				<h3>Front-end Web Developers - agensidigital.com, Bandung - Indonesia</h3>
-				<p>Work Remotely from home <br/> August 2011 - December 2013</p>
+				<p>Work Remotely from home <br/> August 2016 - December 2017</p>
 				<h4>My responsibilities include:</h4>
 				<ul>
 					<li>Bringing a designer’s concept to life with HTML, CSS, and JavaScript</li>
