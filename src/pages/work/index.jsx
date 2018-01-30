@@ -19,7 +19,7 @@ class WorkIndex extends Component {
                         <div className="work__description">
                             <a className="work_name" href="https://querella.herokuapp.com/" target="_blank"><h4>querella</h4></a>
                             <span className="c-portfolio-item__tags">
-                                Frontend Developer, PSD to HTML , Responsinve Design
+                                Frontend Developer, PSD to HTML , Responsive Design
                             </span>
                         </div>
                     </div>
@@ -30,7 +30,7 @@ class WorkIndex extends Component {
                         <div className="work__description">
                             <a className="work_name" href="https://tihotline.com/" target="_blank"><h4>tihotline.com</h4></a>
                             <span className="c-portfolio-item__tags">
-                                Frontend Developer, PSD to HTML , Responsinve Design
+                                Frontend Developer, PSD to HTML , Responsive Design
                             </span>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ class WorkIndex extends Component {
                         <div className="work__description">
                             <a className="work_name" href="https://agent.jpauc.com" target="_blank"><h4>Trendy Agent</h4></a>
                             <span className="c-portfolio-item__tags">
-                                Frontend Developer, PSD to HTML , Responsinve Design
+                                Frontend Developer, PSD to HTML , Responsive Design
                             </span>
                         </div>
                     </div>
@@ -63,7 +63,7 @@ class WorkIndex extends Component {
                         <div className="work__description">
                             <a className="work_name" href="http://market.jpauc.com" target="_blank"><h4>market.jpauc.com</h4></a>
                             <span className="c-portfolio-item__tags">
-                                Frontend Developer, PSD to HTML , Responsinve Design All Page
+                                Frontend Developer, PSD to HTML , Responsive Design All Page
                             </span>
                         </div>
                     </div>
