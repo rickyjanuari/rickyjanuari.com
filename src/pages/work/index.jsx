@@ -39,7 +39,7 @@ class WorkIndex extends Component {
                     <div className="work__wrap">
                         <img className="work__img" src="https://res.cloudinary.com/codesains/image/upload/c_scale,w_500/v1516099596/rickyjanuari.com/trendyagent.jpg" />
                         <div className="work__description">
-                            <a className="work_name" href="https://agent.jpauc.com" target="_blank"><h4>Trendy Agent</h4></a>
+                            <a className="work_name" href="http://agent.tihotline.com/" target="_blank"><h4>Trendy Agent</h4></a>
                             <span className="c-portfolio-item__tags">
                                 Frontend Developer, PSD to HTML , Responsive Design
                             </span>
