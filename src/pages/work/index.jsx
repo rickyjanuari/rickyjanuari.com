@@ -15,6 +15,17 @@ class WorkIndex extends Component {
             <div className="row">
                 <div className="col-xs-12 col-md-6">
                     <div className="work__wrap">
+                        <img className="work__img" src="https://res.cloudinary.com/codesains/image/upload/c_scale,w_500/v1521419869/mbw_zraobv.jpg" />
+                        <div className="work__description">
+                            <a className="work_name" href="https://mbw.netlify.com/" target="_blank"><h4>MBW</h4></a>
+                            <span className="c-portfolio-item__tags">
+                                Frontend Developer, PSD to HTML , Responsive Design
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-xs-12 col-md-6">
+                    <div className="work__wrap">
                         <img className="work__img" src="https://res.cloudinary.com/codesains/image/upload/c_scale,w_500/v1516099596/rickyjanuari.com/querella.jpg" />
                         <div className="work__description">
                             <a className="work_name" href="https://querella.herokuapp.com/" target="_blank"><h4>querella</h4></a>
