@@ -4,6 +4,7 @@ import PostListing from "components/PostListing/PostListing";
 import SEO from "components/SEO/SEO";
 import Intro from "components/Intro/Intro";
 import config from "../../../data/SiteConfig";
+import "./styles.scss";
 
 class Index extends React.Component {
   render() {
@@ -13,6 +14,7 @@ class Index extends React.Component {
         <Helmet title={config.siteTitle} />
         <SEO postEdges={postEdges} />
         <div className="container">
+        <h1 className="post-result-title"><span className="post-result-label">Blog</span> posts</h1>
         <PostListing postEdges={postEdges} />
         </div>
         

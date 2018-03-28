@@ -8,11 +8,9 @@ class Footer extends Component {
   render() {
     return (
       <footer className="footer">
-        <div className="notice-container">
-          <h4>@rickyjanuari</h4>
-
-          
-        </div>
+      	<div className="container">
+        <div class="footer-credits">© 2016 - 2018 <a href="https://rickyjanuari.com/">Ricky Januari</a></div>
+      	</div>
       </footer>
     );
   }
