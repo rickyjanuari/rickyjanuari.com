@@ -22,6 +22,7 @@ class Header extends Component {
                 <li><Link to="/work" activeStyle={{color: '#00CECE'}}>Work</Link></li>
                 <li><Link to="/about" activeStyle={{color: '#00CECE'}}>About</Link></li>
                 <li><Link to="/contact" activeStyle={{color: '#00CECE'}}>Contact</Link></li>
+                <li><Link to="/services" activeStyle={{color: '#00CECE'}}>Services</Link></li>
               </ul>  
             </nav>
           </div>
