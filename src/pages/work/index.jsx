@@ -4,6 +4,7 @@ import Link from "gatsby-link";
 import Contact from "components/Contact/Contact";
 import config from "../../../data/SiteConfig";
 import "./styles.scss";
+import Tabs from 'react-tabs-navigation'
 
 class WorkIndex extends Component {
   render() {
@@ -12,7 +13,11 @@ class WorkIndex extends Component {
             <Helmet title={`Work | ${config.siteTitle}`} />
             <h2>Work</h2>
             <p>Here are some projects I've worked on as Front-end Developer</p>
-            <div className="row">
+            <Tabs
+              tabs={[
+                {
+                  children: () => (
+                    <div className="row">
                 <div className="col-xs-12 col-md-6">
                     <div className="work__wrap">
                         <img className="work__img" src="https://res.cloudinary.com/codesains/image/upload/c_scale,w_500/v1521419869/mbw_zraobv.jpg" />
@@ -134,7 +139,21 @@ class WorkIndex extends Component {
                         </div>
                     </div>
                 </div>
-            </div>  
+            </div> 
+                  ),
+                  displayName: 'Wesbite'
+                },
+                {
+                  children: () => (
+                    <div>
+                      This is the second tab content
+                    </div>
+                  ),
+                  displayName: 'Mobile'
+                }
+              ]}
+            />
+             
         </div>
     );
   }
