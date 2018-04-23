@@ -10,7 +10,7 @@ class About extends Component {
 			<div className="about-me">
 				<h1>About Me</h1>
             	<p>I’m Ricky Januari a Freelance Front-end Developer &amp; Designer based in Bandung - Indonesia. I have over 2 years of experience designing &amp; building websites.</p>
-            	<p>I care about an open, accessible, fast, responsive, and well-built web that puts people first. When I’m not working toward that, I’m probably reading, riding my bike</p>
+            	<p>I care about an open, accessible, fast, responsive, and well-built web that puts people first. When I’m not working toward that, I love to read to learn new things,</p>
 			</div>
 			<div className="experience">
 				<h2>Work Experience</h2>

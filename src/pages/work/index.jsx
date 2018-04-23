@@ -176,7 +176,7 @@ class WorkIndex extends Component {
                 {
                   children: () => (
                     <div className="row">
-                        React Native
+                        
                     </div>
                   ),
                   displayName: 'React Native'
